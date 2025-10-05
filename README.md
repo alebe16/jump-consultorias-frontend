@@ -1,3 +1,18 @@
+Jump Consultorías - Frontend
+
+Este proyecto corresponde al frontend de Jump Consultorías, una aplicación web desarrollada en Angular que permite gestionar usuarios, servicios y consultorías en línea.
+El objetivo es ofrecer una plataforma interactiva y fácil de usar para conectar emprendedores con profesionales.
+
+Tecnologías utilizadas
+
+Angular 19
+
+Bootstrap 5
+
+TypeScript
+
+HTML5 / CSS3
+
 # Frontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.16.
