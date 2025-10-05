@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #171a4a;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 120px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.logo-navbar {
+    width: 60px;
+}
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.auth-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+    background-color: #ff9800;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #e68a00;
+}
+
+.navbar {
+    background-color: #171a4a;
+    padding: 15px;
+}
+
+.dashboard-card {
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.dashboard-card .btn-primary {
+    background-color: #ff9800;
+}
