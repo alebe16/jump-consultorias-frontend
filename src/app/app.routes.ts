@@ -6,6 +6,9 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 import { ServiciosComponent } from './pages/servicios/servicios.component';
 import { ConsultoriasComponent } from './pages/consultorias/consultorias.component';
+import { FinancieraComponent } from './pages/financiera/financiera.component';
+import { MarketingComponent } from './pages/marketing/marketing.component';
+import { InventariosComponent } from './pages/inventarios/inventarios.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -15,6 +18,9 @@ export const routes: Routes = [
     { path: 'usuarios', component: UsuariosComponent },
     { path: 'servicios', component: ServiciosComponent },
     { path: 'consultorias', component: ConsultoriasComponent },
-    { path: '**', redirectTo: '' }
+    { path: 'financiera', component: FinancieraComponent },
+    { path: 'marketing', component: MarketingComponent },
+    { path: 'inventarios', component: InventariosComponent },
+    { path: '**', redirectTo: '**', pathMatch: 'full' }
 
 ];

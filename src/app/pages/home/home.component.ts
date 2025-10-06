@@ -12,9 +12,9 @@ import { RouterModule } from '@angular/router';
 export class HomeComponent {
 
   imagenes = [ 
-    { id: 1, src: 'assets/img1.png', titulo: 'Asesoría financiera' }, 
-    { id: 2, src: 'assets/img2.png', titulo: 'Asesoría en consultoría' }, 
-    { id: 3, src: 'assets/img3.png', titulo: 'Asesoría en inventarios' } 
+  { id: 1, src: 'assets/img1.png', titulo: 'Asesoría financiera', ruta: '/financiera' }, 
+  { id: 2, src: 'assets/img2.png', titulo: 'Asesoría en consultoría', ruta: '/consultoria' }, 
+  { id: 3, src: 'assets/img3.png', titulo: 'Asesoría en inventarios', ruta: '/inventarios' } 
   ]; 
 
   goBack() { 

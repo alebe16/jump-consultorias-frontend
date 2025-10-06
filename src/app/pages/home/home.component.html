@@ -6,10 +6,9 @@
         <div class="card h-100 shadow-sm">
         <img [src]="img.src" class="card-img-top" [alt]="img.titulo">
 
-        
         <div class="card-body text-center">
             <h5 class="card-title">{{ img.titulo }}</h5>
-            <a [routerLink]="['/detalle', img.id]" class="btn btn-primary">Ver más</a>
+            <a [routerLink]="img.ruta" class="btn btn-primary">Ver más</a>
         </div>
         </div>
     </div>
